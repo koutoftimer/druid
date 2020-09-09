@@ -26,6 +26,7 @@ You can find its changes [documented below](#060---2020-06-01).
 - `Movement::StartOfDocument`, `Movement::EndOfDocument`. ([#1092] by [@sysint64])
 - `TextLayout` type simplifies drawing text ([#1182] by [@cmyr])
 - `LineBreaking` enum allows configuration of label line-breaking ([#1195] by [@cmyr])
+- `TextAlignment` support in `TextLayout` and `Label` ([#1208] by [@cmyr])`
 
 ### Changed
 
@@ -429,6 +430,7 @@ Last release without a changelog :(
 [#1195]: https://github.com/linebender/druid/pull/1195
 [#1204]: https://github.com/linebender/druid/pull/1204
 [#1205]: https://github.com/linebender/druid/pull/1205
+[#1208]: https://github.com/linebender/druid/pull/1208
 
 [Unreleased]: https://github.com/linebender/druid/compare/v0.6.0...master
 [0.6.0]: https://github.com/linebender/druid/compare/v0.5.0...v0.6.0
